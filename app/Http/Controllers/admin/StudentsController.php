@@ -2,15 +2,12 @@
 
 namespace App\Http\Controllers\admin;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\Students\StoreStudentRequest;
-use App\Models\Student;
 use App\Models\User;
 use App\utils\StudentsUtility;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Students\StoreStudentRequest;
 
 class StudentsController extends Controller
 {
